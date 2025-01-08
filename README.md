@@ -1,20 +1,51 @@
-# Login Test Scenarios
+# Manual Testing Scenarios
 
-This repository contains an **Excel file** with **manual test cases** for testing the **Login** functionality of an application. The test cases cover a range of scenarios, including valid and invalid login attempts, blank fields, and error handling. 
+This repository contains **manual test cases** for testing the following features of an application:
+
+- **Login**
+- **Search Bar**
+- **Add to Cart**
+
+The test cases for each feature are organized in separate sections of an **Excel file**. Each test case includes detailed steps, expected results, and the status (Pass/Fail) of the tests after execution.
 
 ## File Overview
 
-- **File Name**: `Login_TestCase.xlsx`
-- **Description**: The Excel file includes detailed test scenarios with steps, expected results, and status columns for recording test execution results.
+- **Description**: The Excel file contains the following test cases:
+  - **Login**: Scenarios for validating user authentication.
+  - **Search Bar**: Scenarios for ensuring the search functionality works correctly.
+  - **Add to Cart**: Scenarios for verifying the add-to-cart functionality.
+
 - **Structure**:
   - **Test Case ID**: Unique identifier for each test case.
-  - **Test Scenario Description**: Description of the scenario being tested.
-  - **Test Steps**: Step-by-step instructions for executing the test.
-  - **Expected Result**: The expected outcome of the test.
-  - **Actual Result**: The actual outcome of the test after execution.
-  - **Status**: Pass or Fail status for each test case.
+  - **Test Scenario Description**: A description of the scenario being tested.
+  - **Test Steps**: Step-by-step instructions to perform the test.
+  - **Expected Result**: The expected outcome of the test case.
+  - **Actual Result**: The actual outcome recorded after testing.
+  - **Status**: The result of the test, i.e., whether it passed or failed.
+
+## Features Tested
+
+### Login
+The **Login** test cases include scenarios for:
+- Valid username and password login.
+- Invalid username or password.
+- Blank fields (username or password).
+- Error handling for incorrect credentials.
+
+### Search Bar
+The **Search Bar** test cases cover:
+- Functionality of the search bar with valid search queries.
+- Handling of invalid search terms.
+- Auto-suggestions and result page behavior.
+
+### Add to Cart
+The **Add to Cart** test cases focus on:
+- Adding a single product to the cart.
+- Adding multiple products.
+- Removing products from the cart.
+- Handling when the cart is empty or full.
 
 ## Purpose
 
-The file is intended for manual testers who will follow the test steps, execute the scenarios, and record the results directly in the Excel file.
+The Excel file serves as a manual testing guide for testers to follow the steps, execute the scenarios, and document their results. It is meant for testing the core functionalities of the **Login**, **Search Bar**, and **Add to Cart** features.
 
